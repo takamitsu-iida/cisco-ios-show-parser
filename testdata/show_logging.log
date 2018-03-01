@@ -1,0 +1,636 @@
+S-Cat6880X-01#
+S-Cat6880X-01#
+S-Cat6880X-01#term len 0
+S-Cat6880X-01#
+S-Cat6880X-01#
+S-Cat6880X-01#
+S-Cat6880X-01#show logg
+S-Cat6880X-01#show logging 
+Load for five secs: 5%/1%; one minute: 6%; five minutes: 6%
+Time source is NTP, 21:43:54.916 JST Sun Jan 10 2016
+
+Syslog logging: enabled (0 messages dropped, 103 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 2474 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 1627 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 2377 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+    Trap logging: level informational, 2462 message lines logged
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (65536 bytes):
+.489: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/11, changed state to down
+Sep  5 22:56:48.497: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/11, changed state to down
+Sep  5 22:56:48.485: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/11 left the port-channel Port-channel111
+Sep  5 22:57:01.686: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/11 left the port-channel Port-channel111
+Sep  5 22:57:01.690: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/11, changed state to down
+Sep  5 22:57:01.698: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/11, changed state to down
+Sep  5 22:57:01.685: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/11 left the port-channel Port-channel111
+Sep  5 22:57:09.099: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/11 left the port-channel Port-channel111
+Sep  5 22:57:09.103: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/11, changed state to down
+Sep  5 22:57:09.111: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/11, changed state to down
+Sep  5 22:57:09.093: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/11 left the port-channel Port-channel111
+Sep  5 22:57:15.455: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 104 moving from forwarding to disabled
+Sep  5 22:57:15.455: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 254 moving from forwarding to disabled
+Sep  5 22:57:15.455: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 999 moving from forwarding to disabled
+Sep  5 22:57:15.455: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/11 left the port-channel Port-channel111
+Sep  5 22:57:15.459: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/11, changed state to down
+Sep  5 22:57:15.459: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel111, changed state to down
+Sep  5 22:57:15.467: %LINK-SW1-3-UPDOWN: Interface Vlan104, changed state to down
+Sep  5 22:57:15.467: %LINK-SW1-3-UPDOWN: Interface Port-channel111, changed state to down
+Sep  5 22:57:15.467: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan104 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep  5 22:57:15.467: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/11, changed state to down
+Sep  5 22:57:15.471: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan104, changed state to down
+Sep  5 22:57:15.453: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/11 left the port-channel Port-channel111
+Sep  5 22:57:31.068: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to up
+Sep  5 22:57:33.888: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep  5 22:57:33.888: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from disabled to blocking
+Sep  5 22:57:33.892: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to up
+Sep  5 22:57:33.912: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to up
+Sep  5 22:57:33.916: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to up
+Sep  5 22:57:33.885: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep  5 22:57:34.888: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from blocking to forwarding
+Sep  5 22:57:34.908: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to up
+Sep  5 22:57:34.912: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to up
+Sep  5 22:57:44.865: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from LOADING to FULL, Loading Done
+Sep  5 22:58:28.828: %EC-SW1-5-CANNOT_BUNDLE2: Te1/3/9 is not compatible with Te1/1/9 and will be suspended (Operational flow control send of Te1/3/9 is off, Te1/1/9 is on)
+Sep  5 22:58:28.840: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to up
+Sep  5 22:58:34.324: %EC-SW1-5-COMPATIBLE: Te1/3/9 is compatible with port-channel members
+Sep  5 22:58:36.648: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep  5 22:58:36.652: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to up
+Sep  5 22:58:36.669: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep  5 22:58:40.516: %EC-SW1-5-CANNOT_BUNDLE2: Te2/1/9 is not compatible with Te1/1/9 and will be suspended (Operational flow control send of Te2/1/9 is off, Te1/1/9 is on)
+Sep  5 22:58:40.524: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to up
+Sep  5 22:58:44.333: %EC-SW1-5-COMPATIBLE: Te2/1/9 is compatible with port-channel members
+Sep  5 22:58:46.873: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep  5 22:58:46.877: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to up
+Sep  5 22:58:46.949: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep  5 22:58:48.717: %EC-SW1-5-CANNOT_BUNDLE2: Te2/3/9 is not compatible with Te1/1/9 and will be suspended (Operational flow control send of Te2/3/9 is off, Te1/1/9 is on)
+Sep  5 22:58:48.725: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to up
+Sep  5 22:58:54.333: %EC-SW1-5-COMPATIBLE: Te2/3/9 is compatible with port-channel members
+Sep  5 22:58:56.761: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep  5 22:58:56.765: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to up
+Sep  5 22:58:56.785: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep  5 23:17:23.645: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Sep  5 23:17:23.649: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to down
+Sep  5 23:17:23.657: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to down
+Sep  5 23:17:23.643: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Sep  5 23:17:25.373: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep  5 23:17:25.377: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to down
+Sep  5 23:17:25.385: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to down
+Sep  5 23:17:25.371: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep  5 23:17:27.734: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep  5 23:17:27.738: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to down
+Sep  5 23:17:27.746: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to down
+Sep  5 23:17:27.731: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep  5 23:17:30.578: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from forwarding to disabled
+Sep  5 23:17:30.582: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Sep  5 23:17:30.586: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to down
+Sep  5 23:17:30.586: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to down
+Sep  5 23:17:30.590: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to down
+Sep  5 23:17:30.590: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep  5 23:17:30.594: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to down
+Sep  5 23:17:30.594: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to down
+Sep  5 23:17:30.594: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to down
+Sep  5 23:17:30.575: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Sep  5 23:17:50.531: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/10, changed state to up
+Sep  5 23:17:53.935: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/10 joined port-channel Port-channel110
+Sep  5 23:17:53.939: %SPANTREE-SW1-6-PORT_STATE: Port Po110 instance 103 moving from disabled to blocking
+Sep  5 23:17:53.943: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/10, changed state to up
+Sep  5 23:17:53.963: %LINK-SW1-3-UPDOWN: Interface Port-channel110, changed state to up
+Sep  5 23:17:53.967: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel110, changed state to up
+Sep  5 23:17:53.867: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/10 joined port-channel Port-channel110
+Sep  5 23:17:54.943: %SPANTREE-SW1-6-PORT_STATE: Port Po110 instance 103 moving from blocking to forwarding
+Sep  5 23:17:54.959: %LINK-SW1-3-UPDOWN: Interface Vlan103, changed state to up
+Sep  5 23:17:54.963: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan103, changed state to up
+Sep  5 23:17:55.415: %EC-SW1-5-CANNOT_BUNDLE2: Te1/3/10 is not compatible with Te1/1/10 and will be suspended (Operational flow control send of Te1/3/10 is off, Te1/1/10 is on)
+Sep  5 23:17:55.427: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to up
+Sep  5 23:18:01.812: %EC-SW1-5-CANNOT_BUNDLE2: Te2/1/10 is not compatible with Te1/1/10 and will be suspended (Operational flow control send of Te2/1/10 is off, Te1/1/10 is on)
+Sep  5 23:18:01.824: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to up
+Sep  5 23:18:04.084: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan103 from LOADING to FULL, Loading Done
+Sep  5 23:18:04.524: %EC-SW1-5-COMPATIBLE: Te1/3/10 is compatible with port-channel members
+Sep  5 23:18:07.204: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep  5 23:18:07.208: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to up
+Sep  5 23:18:07.151: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep  5 23:18:08.604: %EC-SW1-5-CANNOT_BUNDLE2: Te2/3/10 is not compatible with Te1/1/10 and will be suspended (Operational flow control send of Te2/3/10 is off, Te1/1/10 is on)
+Sep  5 23:18:08.616: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to up
+Sep  5 23:18:14.525: %EC-SW1-5-COMPATIBLE: Te2/1/10 is compatible with port-channel members
+Sep  5 23:18:14.525: %EC-SW1-5-COMPATIBLE: Te2/3/10 is compatible with port-channel members
+Sep  5 23:18:16.421: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep  5 23:18:16.425: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to up
+Sep  5 23:18:16.733: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep  5 23:18:16.737: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to up
+Sep  5 23:18:16.419: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep  5 23:18:16.683: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep  5 23:26:52.558: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/11, changed state to up
+Sep  5 23:26:53.959: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/11, changed state to up
+Sep  5 23:26:55.959: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/11 joined port-channel Port-channel111
+Sep  5 23:26:55.963: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 104 moving from disabled to blocking
+Sep  5 23:26:55.963: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 254 moving from disabled to blocking
+Sep  5 23:26:55.963: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 999 moving from disabled to blocking
+Sep  5 23:26:55.967: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/11, changed state to up
+Sep  5 23:26:55.991: %LINK-SW1-3-UPDOWN: Interface Port-channel111, changed state to up
+Sep  5 23:26:55.995: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel111, changed state to up
+Sep  5 23:26:56.207: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 254 moving from blocking to forwarding
+Sep  5 23:26:56.207: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 999 moving from blocking to forwarding
+Sep  5 23:26:55.962: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/11 joined port-channel Port-channel111
+Sep  5 23:26:56.971: %SPANTREE-SW1-6-PORT_STATE: Port Po111 instance 104 moving from blocking to forwarding
+Sep  5 23:26:56.983: %LINK-SW1-3-UPDOWN: Interface Vlan104, changed state to up
+Sep  5 23:26:56.987: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan104, changed state to up
+Sep  5 23:26:57.039: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/11 joined port-channel Port-channel111
+Sep  5 23:26:57.043: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/11, changed state to up
+Sep  5 23:26:57.058: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/11 joined port-channel Port-channel111
+Sep  5 23:27:06.343: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan104 from LOADING to FULL, Loading Done
+Sep  5 23:27:27.381: %EC-SW1-5-CANNOT_BUNDLE2: Te1/1/11 is not compatible with Te1/3/11 and will be suspended (Operational flow control send of Te1/1/11 is off, Te1/3/11 is on)
+Sep  5 23:27:27.393: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/11, changed state to up
+Sep  5 23:27:34.625: %EC-SW1-5-COMPATIBLE: Te1/1/11 is compatible with port-channel members
+Sep  5 23:27:37.413: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/11 joined port-channel Port-channel111
+Sep  5 23:27:37.417: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/11, changed state to up
+Sep  5 23:27:37.430: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/11 joined port-channel Port-channel111
+Sep  5 23:27:52.942: %EC-SW1-5-CANNOT_BUNDLE2: Te2/1/11 is not compatible with Te1/1/11 and will be suspended (Operational flow control send of Te2/1/11 is off, Te1/1/11 is on)
+Sep  5 23:27:52.954: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/11, changed state to up
+Sep  5 23:28:03.887: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/11, changed state to down
+Sep  5 23:28:48.122: %EC-SW1-5-CANNOT_BUNDLE2: Te2/1/11 is not compatible with Te1/1/11 and will be suspended (Operational flow control send of Te2/1/11 is off, Te1/1/11 is on)
+Sep  5 23:28:48.134: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/11, changed state to up
+Sep  5 23:28:54.634: %EC-SW1-5-COMPATIBLE: Te2/1/11 is compatible with port-channel members
+Sep  5 23:28:57.343: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/11 joined port-channel Port-channel111
+Sep  5 23:28:57.351: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/11, changed state to up
+Sep  5 23:28:57.366: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/11 joined port-channel Port-channel111
+Sep  5 23:29:03.111: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/10 left the port-channel Port-channel110
+Sep  5 23:29:03.115: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to down
+Sep  5 23:29:03.123: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to down
+Sep  5 23:29:03.110: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/10 left the port-channel Port-channel110
+Sep  5 23:29:05.211: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/10 left the port-channel Port-channel110
+Sep  5 23:29:05.215: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to down
+Sep  5 23:29:05.223: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to down
+Sep  5 23:29:05.210: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/10 left the port-channel Port-channel110
+Sep  5 23:29:09.483: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep  5 23:29:09.487: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to down
+Sep  5 23:29:09.495: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to down
+Sep  5 23:29:09.482: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep  5 23:29:13.184: %SPANTREE-SW1-6-PORT_STATE: Port Po110 instance 103 moving from forwarding to disabled
+Sep  5 23:29:13.184: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/10 left the port-channel Port-channel110
+Sep  5 23:29:13.188: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/10, changed state to down
+Sep  5 23:29:13.188: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel110, changed state to down
+Sep  5 23:29:13.196: %LINK-SW1-3-UPDOWN: Interface Vlan103, changed state to down
+Sep  5 23:29:13.196: %LINK-SW1-3-UPDOWN: Interface Port-channel110, changed state to down
+Sep  5 23:29:13.196: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan103 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep  5 23:29:13.196: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/10, changed state to down
+Sep  5 23:29:13.200: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan103, changed state to down
+Sep  5 23:29:13.182: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/10 left the port-channel Port-channel110
+Sep  6 00:04:02.388: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.5 on Vlan1301 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep  6 00:04:02.400: %LINK-SW1-5-CHANGED: Interface Vlan1301, changed state to administratively down
+Sep  6 00:04:02.404: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan1301, changed state to down
+Sep  6 00:04:06.436: %SYS-SW1-5-CONFIG_I: Configured from console by vty0 (10.240.253.200)
+Sep  6 00:05:50.679: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/2 left the port-channel Port-channel102
+Sep  6 00:05:50.695: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/2, changed state to down
+Sep  6 00:05:50.695: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/2, changed state to down
+Sep  6 00:05:50.682: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/2 left the port-channel Port-channel102
+Sep  6 00:06:04.839: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/2 left the port-channel Port-channel102
+Sep  6 00:06:04.843: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/2, changed state to down
+Sep  6 00:06:04.851: %LINK-SW1-3-UPDOWN: Interface Port-channel102, changed state to down
+Sep  6 00:06:04.851: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/2, changed state to down
+Sep  6 00:06:05.840: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel102, changed state to down
+Sep  6 00:06:04.842: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/2 left the port-channel Port-channel102
+Sep  6 01:10:31.810: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.4 on Vlan1300 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep  6 01:10:31.822: %LINK-SW1-5-CHANGED: Interface Vlan1300, changed state to administratively down
+Sep  6 01:10:31.826: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan1300, changed state to down
+Sep  6 01:10:32.746: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.2 on Vlan1320 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep  6 01:10:32.758: %LINK-SW1-5-CHANGED: Interface Vlan1320, changed state to administratively down
+Sep  6 01:10:32.762: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan1320, changed state to down
+Sep  6 01:10:37.690: %SYS-SW1-5-CONFIG_I: Configured from console by vty0 (10.240.253.200)
+Sep  6 01:10:52.775: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/5 left the port-channel Port-channel105
+Sep  6 01:10:52.779: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/5, changed state to down
+Sep  6 01:10:52.787: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/5, changed state to down
+Sep  6 01:10:52.771: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/5 left the port-channel Port-channel105
+Sep  6 01:11:26.777: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/5 left the port-channel Port-channel105
+Sep  6 01:11:26.781: %SPANTREE-SW1-6-PORT_STATE: Port Po105 instance 254 moving from forwarding to disabled
+Sep  6 01:11:26.781: %SPANTREE-SW1-6-PORT_STATE: Port Po105 instance 999 moving from forwarding to disabled
+Sep  6 01:11:26.781: %SPANTREE-SW1-6-PORT_STATE: Port Po105 instance 1320 moving from forwarding to disabled
+Sep  6 01:11:26.785: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/5, changed state to down
+Sep  6 01:11:26.785: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel105, changed state to down
+Sep  6 01:11:26.793: %LINK-SW1-3-UPDOWN: Interface Port-channel105, changed state to down
+Sep  6 01:11:27.157: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/5, changed state to down
+Sep  6 01:11:26.807: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/5 left the port-channel Port-channel105
+Sep  6 01:11:29.073: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/1 left the port-channel Port-channel101
+Sep  6 01:11:29.077: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/1, changed state to down
+Sep  6 01:11:29.085: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/1, changed state to down
+Sep  6 01:11:29.067: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/1 left the port-channel Port-channel101
+Sep  6 01:11:33.846: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/1 left the port-channel Port-channel101
+Sep  6 01:11:33.854: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/1, changed state to down
+Sep  6 01:11:33.858: %LINK-SW1-3-UPDOWN: Interface Port-channel101, changed state to down
+Sep  6 01:11:33.858: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/1, changed state to down
+Sep  6 01:11:33.839: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/1 left the port-channel Port-channel101
+Sep  6 01:11:34.846: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel101, changed state to down
+Sep  6 01:29:18.694: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/6, changed state to down
+Sep  6 01:29:26.427: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/6, changed state to down
+Sep  6 02:00:51.120: %SYS-SW1-5-CONFIG_I: Configured from console by vty0 (10.240.253.200)
+Sep  6 02:01:07.589: %LINK-SW1-5-CHANGED: Interface TenGigabitEthernet1/1/1, changed state to administratively down
+Sep  6 02:03:46.999: %SYS-SW1-5-CONFIG_I: Configured from console by vty0 (10.240.253.200)
+Sep  6 02:06:49.491: %LINK-SW1-5-CHANGED: Interface TenGigabitEthernet1/1/2, changed state to administratively down
+Sep  6 02:06:53.547: %LINK-SW1-5-CHANGED: Interface TenGigabitEthernet1/1/5, changed state to administratively down
+Sep  6 02:06:57.604: %LINK-SW1-5-CHANGED: Interface TenGigabitEthernet1/1/6, changed state to administratively down
+Sep  6 02:07:15.933: %LINK-SW1-5-CHANGED: Interface TenGigabitEthernet2/1/1, changed state to administratively down
+Sep  6 02:07:19.989: %LINK-SW1-5-CHANGED: Interface TenGigabitEthernet2/1/2, changed state to administratively down
+Sep  6 02:07:24.045: %LINK-SW1-5-CHANGED: Interface TenGigabitEthernet2/1/5, changed state to administratively down
+Sep  6 02:07:28.102: %LINK-SW1-5-CHANGED: Interface TenGigabitEthernet2/1/6, changed state to administratively down
+Sep  6 02:07:58.312: %LINK-SW1-5-CHANGED: Interface Port-channel101, changed state to administratively down
+Sep  6 02:07:58.608: %LINK-SW1-5-CHANGED: Interface Port-channel102, changed state to administratively down
+Sep  6 02:07:58.920: %LINK-SW1-5-CHANGED: Interface Port-channel105, changed state to administratively down
+Sep  6 02:09:14.869: %SYS-SW1-5-CONFIG_I: Configured from console by vty0 (10.240.253.200)
+Sep  6 02:16:29.508: %SYS-SW1-5-CONFIG_I: Configured from console by vty0 (10.240.253.200)
+Sep 18 18:09:58.851: %SYS-SW1-5-CONFIG_I: Configured from console by vty0 (172.28.2.1)
+Sep 23 06:57:06.094: %EARL_CM-SW2_DFC2-5-CL_TCAM1_ERROR: CL TCAM parity error occurred. Count is 1
+Sep 26 22:08:17.687: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/10, changed state to up
+Sep 26 22:08:22.739: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/10 joined port-channel Port-channel110
+Sep 26 22:08:22.739: %SPANTREE-SW1-6-PORT_STATE: Port Po110 instance 103 moving from disabled to blocking
+Sep 26 22:08:22.743: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/10, changed state to up
+Sep 26 22:08:22.763: %LINK-SW1-3-UPDOWN: Interface Port-channel110, changed state to up
+Sep 26 22:08:22.767: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel110, changed state to up
+Sep 26 22:08:22.737: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/10 joined port-channel Port-channel110
+Sep 26 22:08:23.743: %SPANTREE-SW1-6-PORT_STATE: Port Po110 instance 103 moving from blocking to forwarding
+Sep 26 22:08:23.755: %LINK-SW1-3-UPDOWN: Interface Vlan103, changed state to up
+Sep 26 22:08:23.759: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan103, changed state to up
+Sep 26 22:08:33.131: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 26 22:08:33.327: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan103 from LOADING to FULL, Loading Done
+Sep 26 22:08:38.464: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 26 22:08:38.472: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 26 22:08:38.485: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 26 22:09:20.146: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to up
+Sep 26 22:09:24.671: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep 26 22:09:24.675: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to up
+Sep 26 22:09:24.689: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep 26 22:09:35.991: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to up
+Sep 26 22:09:40.656: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep 26 22:09:40.660: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to up
+Sep 26 22:09:40.673: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep 26 22:10:45.100: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 26 22:10:46.992: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep 26 22:10:46.992: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from disabled to blocking
+Sep 26 22:10:46.996: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 26 22:10:47.004: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to up
+Sep 26 22:10:47.008: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to up
+Sep 26 22:10:46.997: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep 26 22:10:47.996: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from blocking to forwarding
+Sep 26 22:10:48.008: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to up
+Sep 26 22:10:48.012: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to up
+Sep 26 22:10:54.793: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 26 22:10:56.613: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 26 22:10:56.617: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 26 22:10:57.173: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from LOADING to FULL, Loading Done
+Sep 26 22:10:56.632: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 26 22:11:30.267: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 26 22:11:33.095: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 26 22:11:33.099: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 26 22:11:33.112: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 26 22:11:34.935: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 26 22:11:36.867: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep 26 22:11:36.871: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 26 22:11:36.884: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep 27 00:01:51.196: %SYS-SW1-5-CONFIG_I: Configured from console by vty1 (10.129.248.21)
+Sep 27 00:06:01.252: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep 27 00:06:01.256: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 00:06:01.264: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 00:06:01.251: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep 27 00:06:08.140: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep 27 00:06:08.144: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 00:06:08.152: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 00:06:08.139: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep 27 00:06:13.624: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Sep 27 00:06:13.628: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to down
+Sep 27 00:06:13.636: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to down
+Sep 27 00:06:13.623: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Sep 27 00:08:45.442: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 00:08:48.302: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 27 00:08:48.306: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 00:08:48.315: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 27 00:10:12.268: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Sep 27 00:10:12.268: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to down
+Sep 27 00:10:12.280: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to down
+Sep 27 00:10:12.262: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Sep 27 00:10:45.330: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 00:10:47.162: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 27 00:10:47.166: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 00:10:47.174: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 27 00:12:11.799: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep 27 00:12:11.803: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 00:12:11.811: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 00:12:11.798: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep 27 00:13:36.937: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 27 00:13:38.821: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep 27 00:13:38.825: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 27 00:13:38.838: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep 27 00:15:05.302: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep 27 00:15:05.306: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 00:15:05.314: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 00:15:05.302: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep 27 00:15:51.365: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 27 00:15:53.161: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep 27 00:15:53.165: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 27 00:15:53.178: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep 27 00:16:08.206: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 00:16:09.950: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 00:16:11.810: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 27 00:16:11.814: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 00:16:11.830: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 27 00:16:11.834: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 00:16:11.829: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 27 00:16:11.849: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 27 00:20:16.758: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Sep 27 00:20:16.762: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to down
+Sep 27 00:20:16.770: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to down
+Sep 27 00:20:17.318: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep 27 00:20:17.322: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 00:20:17.330: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 00:20:16.753: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Sep 27 00:20:17.313: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep 27 00:20:17.874: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep 27 00:20:17.878: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 00:20:17.886: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 00:20:18.430: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from forwarding to disabled
+Sep 27 00:20:18.430: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Sep 27 00:20:18.438: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to down
+Sep 27 00:20:18.438: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to down
+Sep 27 00:20:18.442: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to down
+Sep 27 00:20:18.442: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to down
+Sep 27 00:20:18.442: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep 27 00:20:18.442: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to down
+Sep 27 00:20:18.446: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to down
+Sep 27 00:20:17.869: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep 27 00:20:18.429: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Sep 27 00:23:57.799: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 27 00:23:58.247: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 00:23:59.275: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 00:23:59.427: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 27 00:23:59.679: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep 27 00:23:59.679: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from disabled to blocking
+Sep 27 00:23:59.683: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 27 00:23:59.695: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to up
+Sep 27 00:23:59.699: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to up
+Sep 27 00:23:59.675: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep 27 00:24:00.683: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from blocking to forwarding
+Sep 27 00:24:00.699: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to up
+Sep 27 00:24:00.703: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to up
+Sep 27 00:24:01.063: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 27 00:24:01.067: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 00:24:01.164: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 27 00:24:01.168: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 00:24:01.075: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 27 00:24:01.159: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 27 00:24:02.204: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep 27 00:24:02.208: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 27 00:24:02.235: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep 27 00:24:10.140: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from LOADING to FULL, Loading Done
+Sep 27 00:26:58.430: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Sep 27 00:26:58.434: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to down
+Sep 27 00:26:58.442: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to down
+Sep 27 00:26:58.990: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep 27 00:26:58.994: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 00:26:59.002: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 00:26:58.434: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Sep 27 00:26:58.994: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Sep 27 00:26:59.550: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep 27 00:26:59.550: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 00:26:59.562: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 00:27:00.110: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from forwarding to disabled
+Sep 27 00:27:00.110: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Sep 27 00:27:00.114: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to down
+Sep 27 00:27:00.114: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to down
+Sep 27 00:27:00.122: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to down
+Sep 27 00:27:00.122: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to down
+Sep 27 00:27:00.122: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep 27 00:27:00.122: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to down
+Sep 27 00:27:00.126: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to down
+Sep 27 00:26:59.550: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Sep 27 00:27:00.110: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Sep 27 01:03:12.981: %SYS-SW1-5-CONFIG_I: Configured from console by vty1 (10.240.254.3)
+Sep 27 01:13:40.158: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep 27 01:13:40.162: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to down
+Sep 27 01:13:40.174: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to down
+Sep 27 01:13:40.155: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep 27 01:13:48.959: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/10 left the port-channel Port-channel110
+Sep 27 01:13:48.963: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to down
+Sep 27 01:13:48.971: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to down
+Sep 27 01:13:48.955: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/10 left the port-channel Port-channel110
+Sep 27 01:13:58.803: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/10 left the port-channel Port-channel110
+Sep 27 01:13:58.807: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to down
+Sep 27 01:13:58.815: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to down
+Sep 27 01:13:58.803: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/10 left the port-channel Port-channel110
+Sep 27 01:16:24.481: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 27 01:16:29.685: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 27 01:16:29.689: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 27 01:16:29.703: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 27 01:18:43.298: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/10 left the port-channel Port-channel110
+Sep 27 01:18:43.302: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/10, changed state to down
+Sep 27 01:18:43.310: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/10, changed state to down
+Sep 27 01:18:43.295: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/10 left the port-channel Port-channel110
+Sep 27 01:20:17.112: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to up
+Sep 27 01:20:22.489: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep 27 01:20:22.493: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to up
+Sep 27 01:20:22.503: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep 27 01:21:59.759: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep 27 01:21:59.763: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to down
+Sep 27 01:21:59.771: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to down
+Sep 27 01:21:59.755: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep 27 01:24:17.540: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to up
+Sep 27 01:24:22.473: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep 27 01:24:22.477: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to up
+Sep 27 01:24:22.487: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep 27 01:26:16.160: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/10 left the port-channel Port-channel110
+Sep 27 01:26:16.164: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to down
+Sep 27 01:26:16.172: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to down
+Sep 27 01:26:16.163: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/10 left the port-channel Port-channel110
+Sep 27 01:28:01.847: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/10, changed state to up
+Sep 27 01:28:06.571: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/10 joined port-channel Port-channel110
+Sep 27 01:28:06.575: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/10, changed state to up
+Sep 27 01:28:06.587: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/10 joined port-channel Port-channel110
+Sep 27 01:28:31.825: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 27 01:28:37.510: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 27 01:28:37.514: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 27 01:28:37.523: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 27 01:28:44.142: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to up
+Sep 27 01:28:46.082: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep 27 01:28:46.086: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to up
+Sep 27 01:28:46.095: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep 27 01:29:59.107: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/10 left the port-channel Port-channel110
+Sep 27 01:29:59.111: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to down
+Sep 27 01:29:59.119: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to down
+Sep 27 01:29:59.107: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/10 left the port-channel Port-channel110
+Sep 27 01:30:19.380: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to up
+Sep 27 01:30:24.601: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep 27 01:30:24.609: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to up
+Sep 27 01:30:24.623: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep 27 01:50:10.192: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep 27 01:50:10.192: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to down
+Sep 27 01:50:10.204: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to down
+Sep 27 01:50:10.175: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep 27 01:50:16.404: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 27 01:50:19.556: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 27 01:50:19.560: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 27 01:50:19.563: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 27 01:54:26.849: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep 27 01:54:26.849: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to down
+Sep 27 01:54:26.861: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to down
+Sep 27 01:54:26.913: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/10 left the port-channel Port-channel110
+Sep 27 01:54:26.913: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to down
+Sep 27 01:54:26.925: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to down
+Sep 27 01:54:27.217: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/10 left the port-channel Port-channel110
+Sep 27 01:54:27.221: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/10, changed state to down
+Sep 27 01:54:27.229: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/10, changed state to down
+Sep 27 01:54:27.285: %SPANTREE-SW1-6-PORT_STATE: Port Po110 instance 103 moving from forwarding to disabled
+Sep 27 01:54:27.285: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/10 left the port-channel Port-channel110
+Sep 27 01:54:27.293: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to down
+Sep 27 01:54:27.293: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel110, changed state to down
+Sep 27 01:54:27.297: %LINK-SW1-3-UPDOWN: Interface Vlan103, changed state to down
+Sep 27 01:54:27.297: %LINK-SW1-3-UPDOWN: Interface Port-channel110, changed state to down
+Sep 27 01:54:27.297: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan103 from FULL to DOWN, Neighbor Down: Interface down or detached
+Sep 27 01:54:27.301: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan103, changed state to down
+Sep 27 01:54:27.301: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to down
+Sep 27 01:54:26.847: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/10 left the port-channel Port-channel110
+Sep 27 01:54:26.911: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/10 left the port-channel Port-channel110
+Sep 27 01:54:27.219: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/10 left the port-channel Port-channel110
+Sep 27 01:54:27.287: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/10 left the port-channel Port-channel110
+Sep 27 01:54:32.873: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 27 01:54:33.085: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/10, changed state to up
+Sep 27 01:54:33.281: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/10, changed state to up
+Sep 27 01:54:34.617: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/10, changed state to up
+Sep 27 01:54:37.641: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 27 01:54:37.641: %SPANTREE-SW1-6-PORT_STATE: Port Po110 instance 103 moving from disabled to blocking
+Sep 27 01:54:37.645: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/10, changed state to up
+Sep 27 01:54:37.653: %LINK-SW1-3-UPDOWN: Interface Port-channel110, changed state to up
+Sep 27 01:54:37.657: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel110, changed state to up
+Sep 27 01:54:37.677: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/10 joined port-channel Port-channel110
+Sep 27 01:54:37.681: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/10, changed state to up
+Sep 27 01:54:37.643: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/10 joined port-channel Port-channel110
+Sep 27 01:54:37.711: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/10 joined port-channel Port-channel110
+Sep 27 01:54:38.645: %SPANTREE-SW1-6-PORT_STATE: Port Po110 instance 103 moving from blocking to forwarding
+Sep 27 01:54:38.657: %LINK-SW1-3-UPDOWN: Interface Vlan103, changed state to up
+Sep 27 01:54:38.661: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan103, changed state to up
+Sep 27 01:54:38.665: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep 27 01:54:38.669: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/10, changed state to up
+Sep 27 01:54:39.678: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep 27 01:54:39.682: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/10, changed state to up
+Sep 27 01:54:38.687: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/10 joined port-channel Port-channel110
+Sep 27 01:54:39.695: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/10 joined port-channel Port-channel110
+Sep 27 01:54:48.054: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan103 from LOADING to FULL, Loading Done
+Sep 27 02:00:52.850: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 02:00:53.758: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 27 02:00:55.955: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 02:00:56.963: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 27 02:01:01.499: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 02:01:02.599: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 27 02:01:05.583: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 02:01:06.179: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 27 02:01:31.517: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to up
+Sep 27 02:01:31.521: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to up
+Sep 27 02:03:44.714: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to down
+Sep 27 02:03:44.722: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to down
+Sep 27 02:03:44.838: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 02:03:44.846: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to down
+Sep 27 02:03:44.990: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 02:03:44.998: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to down
+Sep 27 02:03:45.098: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to down
+Sep 27 02:03:45.098: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to down
+Sep 27 02:03:45.102: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to down
+Sep 27 02:03:45.102: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to down
+Sep 27 02:03:50.430: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 27 02:03:50.710: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 02:03:51.042: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 02:03:51.326: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 27 02:03:52.890: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 27 02:03:52.890: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from disabled to blocking
+Sep 27 02:03:52.894: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to up
+Sep 27 02:03:52.930: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to up
+Sep 27 02:03:52.934: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to up
+Sep 27 02:03:53.174: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep 27 02:03:53.178: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to up
+Sep 27 02:03:53.190: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep 27 02:03:53.206: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to up
+Sep 27 02:03:53.438: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 27 02:03:53.442: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to up
+Sep 27 02:03:53.894: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from blocking to forwarding
+Sep 27 02:03:52.894: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Sep 27 02:03:53.190: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Sep 27 02:03:53.214: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Sep 27 02:03:53.454: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Sep 27 02:03:53.910: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to up
+Sep 27 02:03:53.914: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to up
+Sep 27 02:04:03.755: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from LOADING to FULL, Loading Done
+Oct 26 22:11:31.256: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Oct 26 22:11:31.260: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to down
+Oct 26 22:11:31.268: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to down
+Oct 26 22:11:31.820: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Oct 26 22:11:31.824: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to down
+Oct 26 22:11:31.832: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to down
+Oct 26 22:11:31.259: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/1/9 left the port-channel Port-channel109
+Oct 26 22:11:31.823: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/9 left the port-channel Port-channel109
+Oct 26 22:11:32.384: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Oct 26 22:11:32.388: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to down
+Oct 26 22:11:32.396: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to down
+Oct 26 22:11:32.940: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from forwarding to disabled
+Oct 26 22:11:32.940: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Oct 26 22:11:32.948: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to down
+Oct 26 22:11:32.948: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to down
+Oct 26 22:11:32.952: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to down
+Oct 26 22:11:32.952: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to down
+Oct 26 22:11:32.952: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from FULL to DOWN, Neighbor Down: Interface down or detached
+Oct 26 22:11:32.952: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to down
+Oct 26 22:11:32.956: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to down
+Oct 26 22:11:32.387: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/1/9 left the port-channel Port-channel109
+Oct 26 22:11:32.943: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet2/3/9 left the port-channel Port-channel109
+Oct 26 22:11:36.644: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/1/9, changed state to up
+Oct 26 22:11:37.376: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/9, changed state to up
+Oct 26 22:11:37.836: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/1/9, changed state to up
+Oct 26 22:11:38.304: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet2/3/9, changed state to up
+Oct 26 22:11:39.272: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Oct 26 22:11:39.276: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from disabled to blocking
+Oct 26 22:11:39.280: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/1/9, changed state to up
+Oct 26 22:11:39.308: %LINK-SW1-3-UPDOWN: Interface Port-channel109, changed state to up
+Oct 26 22:11:39.312: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Port-channel109, changed state to up
+Oct 26 22:11:39.404: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Oct 26 22:11:39.408: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet1/3/9, changed state to up
+Oct 26 22:11:39.788: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Oct 26 22:11:39.792: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/1/9, changed state to up
+Oct 26 22:11:40.112: %EC-SW1-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Oct 26 22:11:40.116: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface TenGigabitEthernet2/3/9, changed state to up
+Oct 26 22:11:39.283: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/1/9 joined port-channel Port-channel109
+Oct 26 22:11:39.411: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet1/3/9 joined port-channel Port-channel109
+Oct 26 22:11:39.815: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/1/9 joined port-channel Port-channel109
+Oct 26 22:11:40.135: %EC-SW2_STBY-5-BUNDLE: Interface TenGigabitEthernet2/3/9 joined port-channel Port-channel109
+Oct 26 22:11:40.292: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from blocking to forwarding
+Oct 26 22:11:40.304: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to up
+Oct 26 22:11:40.308: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to up
+Oct 26 22:11:50.393: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from LOADING to FULL, Loading Done
+Nov 23 13:28:39.878: %EARL_CM-SW1_DFC1-5-CL_TCAM1_ERROR: CL TCAM parity error occurred. Count is 2
+Jan  7 18:40:41.860: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from forwarding to blocking
+Jan  7 18:40:41.876: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to down
+Jan  7 18:40:41.876: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from FULL to DOWN, Neighbor Down: Interface down or detached
+Jan  7 18:40:41.880: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to down
+Jan  7 18:40:43.500: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from blocking to forwarding
+Jan  7 18:40:43.512: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to up
+Jan  7 18:40:43.516: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to up
+Jan  7 18:40:45.897: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from LOADING to FULL, Loading Done
+Jan  7 18:41:28.379: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from forwarding to blocking
+Jan  7 18:41:28.399: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to down
+Jan  7 18:41:28.399: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from FULL to DOWN, Neighbor Down: Interface down or detached
+Jan  7 18:41:28.403: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to down
+Jan  7 18:41:29.760: %SPANTREE-SW1-6-PORT_STATE: Port Po109 instance 102 moving from blocking to forwarding
+Jan  7 18:41:29.772: %LINK-SW1-3-UPDOWN: Interface Vlan102, changed state to up
+Jan  7 18:41:29.776: %LINEPROTO-SW1-5-UPDOWN: Line protocol on Interface Vlan102, changed state to up
+Jan  7 18:41:29.820: %OSPF-SW1-5-ADJCHG: Process 1, Nbr 1.1.1.3 on Vlan102 from LOADING to FULL, Loading Done
+S-Cat6880X-01#
+S-Cat6880X-01#
+S-Cat6880X-01#
+S-Cat6880X-01#

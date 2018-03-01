@@ -1,0 +1,93 @@
+S-Cat6880X-01#show cdp ne
+Load for five secs: 8%/1%; one minute: 6%; five minutes: 6%
+Time source is NTP, 20:17:47.804 JST Thu Jan 7 2016
+
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+S-Cat3750X-41Stack
+                 Ten 2/4/4         147            R T S I WS-C3750X Ten 2/1/2
+S-Cat3750X-41Stack
+                 Ten 2/4/3         175            R T S I WS-C3750X Ten 1/1/2
+S-Cat3750X-41Stack
+                 Ten 1/4/4         147            R T S I WS-C3750X Ten 2/1/1
+S-Cat3750X-41Stack
+                 Ten 1/4/3         175            R T S I WS-C3750X Ten 1/1/1
+S-Cat3750X-17Stack
+                 Ten 2/2/5         153             R S I  WS-C3750X Gig 2/1/1
+S-Cat3750X-17Stack
+                 Ten 1/2/5         153             R S I  WS-C3750X Gig 1/1/1
+S-Cat3750X-25Stack
+                 Ten 2/2/7         173             R S I  WS-C3750X Ten 2/1/2
+S-Cat3750X-07Stack
+                 Ten 2/2/8         168              S I   WS-C3750X Gig 2/1/1
+S-Cat3750X-25Stack
+                 Ten 2/2/6         173             R S I  WS-C3750X Ten 1/1/2
+S-Cat3750X-07Stack
+                 Ten 1/2/8         168              S I   WS-C3750X Gig 1/1/1
+S-Cat3750X-25Stack
+                 Ten 1/2/7         173             R S I  WS-C3750X Ten 2/1/1
+S-Cat3750X-25Stack
+                 Ten 1/2/6         173             R S I  WS-C3750X Ten 1/1/1
+S-Cat3750X-11Stack
+                 Ten 2/4/7         141              S I   WS-C3750X Gig 2/1/1
+S-Cat3750X-11Stack
+                 Ten 1/4/7         141              S I   WS-C3750X Gig 1/1/1
+S-Cat3750X-23Stack
+                 Ten 2/4/6         144             R S I  WS-C3750X Ten 2/1/2
+S-Cat3750X-23Stack
+                 Ten 2/4/5         144             R S I  WS-C3750X Ten 1/1/2
+S-Cat3750X-23Stack
+                 Ten 1/4/6         144             R S I  WS-C3750X Ten 2/1/1
+S-Cat3750X-23Stack
+                 Ten 1/4/5         144             R S I  WS-C3750X Ten 1/1/1
+S-Cat3750X-09Stack
+                 Ten 2/2/10        133              S I   WS-C3750X Gig 2/1/2
+S-Cat3750X-09Stack
+                 Ten 2/2/9         133              S I   WS-C3750X Gig 1/1/2
+          
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+S-Cat3750X-09Stack
+                 Ten 1/2/9         132              S I   WS-C3750X Gig 1/1/1
+S-Cat3750X-09Stack
+                 Ten 1/2/10        132              S I   WS-C3750X Gig 2/1/1
+S-Cat3750X-39Stack
+                 Ten 2/2/4         171             R S I  WS-C3750X Gig 2/0/48
+S-Cat3750X-39Stack
+                 Ten 2/2/3         171             R S I  WS-C3750X Gig 1/0/48
+S-Cat3750X-39Stack
+                 Ten 1/2/4         171             R S I  WS-C3750X Gig 2/0/47
+S-Cat3750X-39Stack
+                 Ten 1/2/3         171             R S I  WS-C3750X Gig 1/0/47
+S-Cat4500X-19VSS Ten 2/3/9         132             R S I  WS-C4500X Ten 2/1/4
+S-Cat4500X-19VSS Ten 2/1/9         131             R S I  WS-C4500X Ten 1/1/4
+S-Cat4500X-19VSS Ten 1/3/9         131             R S I  WS-C4500X Ten 2/1/3
+S-Cat4500X-19VSS Ten 1/1/9         131             R S I  WS-C4500X Ten 1/1/3
+S-Cat4500X-19VSS Ten 2/3/10        137             R S I  WS-C4500X Ten 2/1/6
+S-Cat4500X-19VSS Ten 2/1/10        135             R S I  WS-C4500X Ten 1/1/6
+S-Cat4500X-19VSS Ten 1/1/10        135             R S I  WS-C4500X Ten 1/1/5
+S-Cat4500X-19VSS Ten 1/3/10        134             R S I  WS-C4500X Ten 2/1/5
+S-Cat4500X-19VSS Ten 2/1/11        157             R S I  WS-C4500X Ten 1/1/2
+S-Cat4500X-19VSS Ten 1/1/11        138             R S I  WS-C4500X Ten 1/1/1
+S-Cat4500X-19VSS Ten 2/3/11        157             R S I  WS-C4500X Ten 2/1/2
+S-Cat4500X-19VSS Ten 1/3/11        156             R S I  WS-C4500X Ten 2/1/1
+S-Cat4500X-09VSS Ten 2/2/1         119             R S I  WS-C4500X Ten 1/1/4
+S-Cat4500X-09VSS Ten 2/2/2         120             R S I  WS-C4500X Ten 2/1/4
+S-Cat4500X-09VSS Ten 1/2/1         119             R S I  WS-C4500X Ten 1/1/3
+S-Cat4500X-09VSS Ten 1/2/2         134             R S I  WS-C4500X Ten 2/1/3
+S-Cat4500X-01VSS Ten 2/4/2         162             R S I  WS-C4500X Ten 2/1/4
+S-Cat4500X-01VSS Ten 2/4/1         162             R S I  WS-C4500X Ten 1/1/4
+S-Cat4500X-01VSS Ten 1/4/1         135             R S I  WS-C4500X Ten 1/1/3
+S-Cat4500X-01VSS Ten 1/4/2         135             R S I  WS-C4500X Ten 2/1/3
+S-Cat3560-24-02  Ten 1/4/8         159             R S I  WS-C3560- Gig 0/1
+S-Cat3850-01Stack
+                 Ten 2/4/10        170             R S I  WS-C3850- Gig 2/0/2
+S-Cat3850-01Stack
+                 Ten 1/4/10        133             R S I  WS-C3850- Gig 2/0/1
+S-Cat3850-01Stack
+                 Ten 2/4/9         175             R S I  WS-C3850- Gig 1/0/2
+S-Cat3850-01Stack
+                 Ten 1/4/9         151             R S I  WS-C3850- Gig 1/0/1
+S-Cat6880X-01#   

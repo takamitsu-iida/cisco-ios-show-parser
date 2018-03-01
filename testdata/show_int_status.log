@@ -1,0 +1,186 @@
+S-Cat6880X-01#
+S-Cat6880X-01#show int status
+Load for five secs: 7%/0%; one minute: 6%; five minutes: 6%
+Time source is NTP, 21:46:09.148 JST Sun Jan 10 2016
+
+
+Port          Name               Status       Vlan       Duplex  Speed Type
+Te1/1/1                          disabled     1            full   1000 1000BaseLH
+Te1/1/2                          disabled     1            full   1000 1000BaseLH
+Te1/1/3       IPCOMEX-27 lan0.0  connected    129        a-full a-1000 10/100/1000BaseT
+Te1/1/4       IPCOMEX-28 lan0.0  connected    129        a-full a-1000 10/100/1000BaseT
+Te1/1/5                          disabled     1            full   1000 1000BaseLH
+Te1/1/6       IBM Gigamon P1     notconnect   1            full   auto 10/100/1000BaseT
+Te1/1/7                          disabled     1            full    10G No Connector
+Te1/1/8                          disabled     1            full    10G No Connector
+Te1/1/9       4500X-19 Te1/1/3   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/1/10      4500X-19 Te1/1/5   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/1/11      4500X-19 Te1/1/1   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/1/12                         disabled     1            full    10G No Connector
+Te1/1/13                         disabled     1            full    10G No Connector
+Te1/1/14                         disabled     routed       auto a-1000 10/100/1000BaseT
+Te1/1/15                         disabled     routed       auto a-1000 10/100/1000BaseT
+Te1/1/16      6880X-01 Te2/1/16  connected    routed     a-full a-1000 10/100/1000BaseT
+Te1/2/1       4500X-09 Te1/1/3   connected    trunk        full    10G 10Gbase-SR
+Te1/2/2       4500X-09 Te2/1/3   connected    trunk        full    10G 10Gbase-SR
+Te1/2/3       3750X-39 Gi1/0/47  connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/2/4       3750X-39 Gi2/0/47  connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/2/5       3750X-17 Gi1/1/1   connected    trunk        full   1000 1000BaseLH
+Te1/2/6       3750X-25 Te1/1/1   connected    trunk        full    10G 10Gbase-SR
+Te1/2/7       3750X-25 Te2/1/1   connected    trunk        full    10G 10Gbase-SR
+Te1/2/8       3750X-07 Gi1/1/1   connected    trunk        full   1000 1000BaseLH
+Te1/2/9       3750X-09 Gi1/1/1   connected    trunk        full   1000 1000BaseLH
+Te1/2/10      3750X-09 Gi2/1/1   connected    trunk        full   1000 1000BaseLH
+Te1/2/11                         disabled     1            full    10G No Connector
+Te1/2/12                         disabled     1            full    10G No Connector
+Te1/2/13                         disabled     1            full    10G No Connector
+Te1/2/14                         disabled     1            full    10G No Connector
+Te1/2/15                         disabled     1            full    10G No Connector
+Te1/2/16                         disabled     1            full    10G No Connector
+Te1/3/1                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/2                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/3                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/4                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/5                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/6                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/7                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/8                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/9       4500X-19 Te2/1/3   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/3/10      4500X-19 Te2/1/5   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/3/11      4500X-19 Te2/1/1   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/3/12                         disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/13                         disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/14                         disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/15                         disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/3/16                         disabled     1          a-full a-1000 10/100/1000BaseT
+Te1/4/1       4500X-01 Te1/1/3   connected    trunk        full    10G 10Gbase-SR
+Te1/4/2       4500X-01 Te2/1/3   connected    trunk        full    10G 10Gbase-SR
+Te1/4/3       3750X-41 Te1/1/1   connected    trunk        full    10G 10Gbase-SR
+Te1/4/4       3750X-41 Te2/1/1   connected    trunk        full    10G 10Gbase-SR
+Te1/4/5       3750X-23 Te1/1/1   connected    trunk        full    10G 10Gbase-SR
+Te1/4/6       3750X-23 Te2/1/1   connected    trunk        full    10G 10Gbase-SR
+Te1/4/7       3750X-11 Gi1/1/1   connected    trunk        full   1000 1000BaseLH
+Te1/4/8       3560-24-02 Gi0/1   connected    trunk        full   1000 1000BaseLH
+Te1/4/9       3850-01 Gi1/0/1    connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/4/10      3850-01 Gi2/0/1    connected    trunk      a-full a-1000 10/100/1000BaseT
+Te1/4/11                         disabled     1            full    10G No Connector
+Te1/4/12                         disabled     1            full    10G No Connector
+Te1/4/13                         disabled     1            full    10G No Connector
+Te1/4/14                         disabled     1            full    10G No Connector
+Te1/4/15                         disabled     routed       auto a-1000 10/100/1000BaseT
+Te1/4/16                         disabled     routed       auto a-1000 10/100/1000BaseT
+Te1/5/1       6880X-01 Te2/5/1   connected    routed       full    10G 10Gbase-SR
+Te1/5/2                          disabled     1            full    10G No Connector
+Te1/5/3                          disabled     1            full    10G No Connector
+Te1/5/4                          disabled     1            full    10G No Connector
+Te1/5/5                          disabled     1            full    10G No Connector
+Te1/5/6                          disabled     1            full    10G No Connector
+Te1/5/7                          disabled     1            full    10G No Connector
+Te1/5/8                          disabled     1            full    10G No Connector
+Te1/5/9                          disabled     1            full    10G 10Gbase-SR
+Te1/5/10                         disabled     1            full    10G 10Gbase-SR
+Te1/5/11                         disabled     1            full    10G 10Gbase-SR
+Te1/5/12                         disabled     1            full    10G 10Gbase-SR
+Te1/5/13                         disabled     1            full    10G 10Gbase-SR
+Te1/5/14                         disabled     1            full    10G 10Gbase-SR
+Te1/5/15                         disabled     1            full    10G No Connector
+Te1/5/16      6880X-01 Te2/5/16  connected    routed       full    10G 10Gbase-SR
+mgmt0                            connected    routed     a-half   a-10 10/100/1000BaseT
+Te2/1/1                          disabled     1            full   1000 1000BaseLH
+Te2/1/2                          disabled     1            full   1000 1000BaseLH
+Te2/1/3       IPCOMEX-27 lan0.1  connected    129        a-full a-1000 10/100/1000BaseT
+Te2/1/4       IPCOMEX-28 lan0.1  connected    129        a-full a-1000 10/100/1000BaseT
+Te2/1/5                          disabled     1            full   1000 1000BaseLH
+Te2/1/6                          disabled     1            full   auto 10/100/1000BaseT
+Te2/1/7                          disabled     1            full    10G No Connector
+Te2/1/8                          disabled     1            full    10G No Connector
+Te2/1/9       4500X-19 Te1/1/4   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/1/10      4500X-19 Te1/1/6   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/1/11      4500X-19 Te1/1/2   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/1/12                         disabled     1            full    10G No Connector
+Te2/1/13                         disabled     1            full    10G No Connector
+Te2/1/14                         disabled     routed       auto a-1000 10/100/1000BaseT
+Te2/1/15                         disabled     routed       auto a-1000 10/100/1000BaseT
+Te2/1/16      6880X-01 Te1/1/16  connected    routed     a-full a-1000 10/100/1000BaseT
+Te2/2/1       4500X-09 Te1/1/4   connected    trunk        full    10G 10Gbase-SR
+Te2/2/2       4500X-09 Te2/1/4   connected    trunk        full    10G 10Gbase-SR
+Te2/2/3       3750X-39 Gi1/0/48  connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/2/4       3750X-39 Gi2/0/48  connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/2/5       3750X-17 Gi2/1/1   connected    trunk        full   1000 1000BaseLH
+Te2/2/6       3750X-25 Te1/1/2   connected    trunk        full    10G 10Gbase-SR
+Te2/2/7       3750X-25 Te2/1/2   connected    trunk        full    10G 10Gbase-SR
+Te2/2/8       3750X-07 Gi2/1/1   connected    trunk        full   1000 1000BaseLH
+Te2/2/9       3750X-09 Gi1/1/2   connected    trunk        full   1000 1000BaseLH
+Te2/2/10      3750X-09 Gi2/1/2   connected    trunk        full   1000 1000BaseLH
+Te2/2/11                         disabled     1            full    10G No Connector
+Te2/2/12                         disabled     1            full    10G No Connector
+Te2/2/13                         disabled     1            full    10G No Connector
+Te2/2/14                         disabled     1            full    10G No Connector
+Te2/2/15                         disabled     1            full    10G No Connector
+Te2/2/16                         disabled     1            full    10G No Connector
+Te2/3/1                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/2                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/3                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/4                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/5                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/6                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/7                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/8                          disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/9       4500X-19 Te2/1/4   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/3/10      4500X-19 Te2/1/6   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/3/11      4500X-19 Te2/1/2   connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/3/12                         disabled     1          a-full   auto No Connector
+Te2/3/13                         disabled     1          a-full   auto No Connector
+Te2/3/14                         disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/15                         disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/3/16                         disabled     1          a-full a-1000 10/100/1000BaseT
+Te2/4/1       4500X-01 Te1/1/4   connected    trunk        full    10G 10Gbase-SR
+Te2/4/2       4500X-01 Te2/1/4   connected    trunk        full    10G 10Gbase-SR
+Te2/4/3       3750X-41 Te1/1/2   connected    trunk        full    10G 10Gbase-SR
+Te2/4/4       3750X-41 Te2/1/2   connected    trunk        full    10G 10Gbase-SR
+Te2/4/5       3750X-23 Te1/1/2   connected    trunk        full    10G 10Gbase-SR
+Te2/4/6       3750X-23 Te2/1/2   connected    trunk        full    10G 10Gbase-SR
+Te2/4/7       3750X-11 Gi2/1/1   connected    trunk        full   1000 1000BaseLH
+Te2/4/8                          disabled     1            full    10G No Connector
+Te2/4/9       3850-01 Gi1/0/2    connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/4/10      3850-01 Gi2/0/2    connected    trunk      a-full a-1000 10/100/1000BaseT
+Te2/4/11                         disabled     1            full    10G No Connector
+Te2/4/12                         disabled     1            full    10G No Connector
+Te2/4/13                         disabled     1            full    10G No Connector
+Te2/4/14                         disabled     1            full    10G No Connector
+Te2/4/15                         disabled     routed       auto   auto 10/100/1000BaseT
+Te2/4/16                         disabled     routed       auto   auto 10/100/1000BaseT
+Te2/5/1       6880X-01 Te1/5/1   connected    routed       full    10G 10Gbase-SR
+Te2/5/2                          disabled     1            full    10G No Connector
+Te2/5/3                          disabled     1            full    10G No Connector
+Te2/5/4                          disabled     1            full    10G No Connector
+Te2/5/5                          disabled     1            full    10G No Connector
+Te2/5/6                          disabled     1            full    10G No Connector
+Te2/5/7                          disabled     1            full    10G No Connector
+Te2/5/8                          disabled     1            full    10G No Connector
+Te2/5/9                          disabled     1            full    10G 10Gbase-SR
+Te2/5/10                         disabled     1            full    10G 10Gbase-SR
+Te2/5/11                         disabled     1            full    10G 10Gbase-SR
+Te2/5/12                         disabled     1            full    10G 10Gbase-SR
+Te2/5/13                         disabled     1            full    10G 10Gbase-SR
+Te2/5/14                         disabled     1            full    10G 10Gbase-SR
+Te2/5/15                         disabled     1            full    10G No Connector
+Te2/5/16      6880X-01 Te1/5/16  connected    routed       full    10G 10Gbase-SR
+Po1           VSS-LINK           connected    routed     a-full    10G 
+Po2           VSS-LINK           connected    routed     a-full    10G 
+Po109         4500X-19 Po103     connected    trunk      a-full a-1000 
+Po110         4500X-19 Po105     connected    trunk      a-full a-1000 
+Po111         4500X-19 Po101     connected    trunk      a-full a-1000 
+Po201         4500X-09 Po101     connected    trunk      a-full    10G 
+Po203         3750X-39 Po47      connected    trunk      a-full a-1000 
+Po205         3750X-17 Po47      connected    trunk      a-full a-1000 
+Po206         3750X-25 Po1       connected    trunk      a-full    10G 
+Po208         3750X-07 Po25      connected    trunk      a-full a-1000 
+Po209         3750X-09 Po25      connected    trunk      a-full a-1000 
+Po401         4500X-01 Po101     connected    trunk      a-full    10G 
+Po403         3750X-41 Po48      connected    trunk      a-full    10G 
+Po405         3750X-23 Po1       connected    trunk      a-full    10G 
+Po407         3750X-11 Po25      connected    trunk      a-full a-1000 
+Po409         3850-01 Po1        connected    trunk      a-full a-1000 
+S-Cat6880X-01#
+S-Cat6880X-01#
