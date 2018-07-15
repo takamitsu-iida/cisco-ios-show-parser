@@ -6,7 +6,7 @@ TextFSMで取り出しづらい場面ではスクリプトを書いてしまっ�
 
 ## ディレクトリ構造
 
-```
+```tree
 ├── README.md
 ├── bin
 │   ├── cisco_ios_show_cdp_neighbors.py
@@ -37,7 +37,6 @@ confフォルダには設定パラメータが書かれています。
 
 testdataフォルダには動作確認用のログサンプルがあります。
 
-
 # 文字列を固定長の長さで取り出す場合の例・その１
 
 一番簡単な例です。
@@ -49,7 +48,7 @@ bin/show_int_interfaces_status.py
 
 ## スクレイピング対象
 
-```
+```none
 Port          Name               Status       Vlan       Duplex  Speed Type
 Te1/1/1                          disabled     1            full   1000 1000BaseLH
 Te1/1/2                          disabled     1            full   1000 1000BaseLH
@@ -57,7 +56,7 @@ Te1/1/2                          disabled     1            full   1000 1000BaseL
 
 ## 実行例
 
-```
+```bash
 $ python bin/cisco_ios_show_interfaces_status.py testdata/show_int_status.log
 2018-02-28 17:08:55,076 - INFO - open file testdata/show_int_status.log
 2018-02-28 17:08:55,077 - INFO - found 186 lines
@@ -79,7 +78,7 @@ $ python bin/cisco_ios_show_interfaces_status.py testdata/show_int_status.log
                Speed : 10G
                 Type : 10Gbase-SR
 
-(省略)
+(省略)
 
                 Port : Po405
                 Name : 3750X-23 Po1
@@ -100,11 +99,11 @@ $
 
 ## スクリプト
 
-bin/cisco_ios_show_cdp_neighbors.py
+bin/cisco_ios_show_cdp_neighbors.py
 
 ## スクレイピング対象
 
-```
+```none
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
                   D - Remote, C - CVTA, M - Two-port Mac Relay
@@ -116,7 +115,7 @@ E-Cat3750X-41Stack
 
 ## 実行例
 
-```
+```bash
 $ python bin/cisco_ios_show_cdp_neighbors.py testdata/show_cdp_neighbor.log
 2018-02-28 17:18:59,200 - INFO - open file testdata/show_cdp_neighbor.log
 2018-02-28 17:18:59,201 - INFO - found 93 lines
@@ -148,7 +147,6 @@ $ python bin/cisco_ios_show_cdp_neighbors.py testdata/show_cdp_neighbor.log
 $
 ```
 
-
 # 正規表現で欲しい情報を取り出す例・その１
 
 決まった長さでは切り取れない場合は正規表現で取り出します。
@@ -160,7 +158,7 @@ bin/cisco_ios_show_logging.py
 
 ## スクレイピング対象がこのような形式の場合、
 
-```
+```none
 Sep  5 22:56:48.497: %LINK-SW1-3-UPDOWN: Interface TenGigabitEthernet1/3/11, changed state to down
 Sep  5 22:56:48.485: %EC-SW2_STBY-5-UNBUNDLE: Interface TenGigabitEthernet1/3/11 left the port-channel Port-channel111
 Sep  5 22:57:01.686: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/11 left the port-channel Port-channel111
@@ -168,7 +166,7 @@ Sep  5 22:57:01.686: %EC-SW1-5-UNBUNDLE: Interface TenGigabitEthernet2/3/11 left
 
 日付部分は `r"^(\S.*): %.*-\d-.*: .*$"` という正規表現で取り出せます。
 
-ファシリティは `r"^\S.*: %(\S+)-\d-.*: .*$"` で取り出せます。
+ファシリティは `r"^\S.*: %(\S+)-\d-.*: .*$"` で取り出せます。
 
 sererityは `r"^\S.*: %.*-(\d)-.*: .*$"` で取り出せます。
 
@@ -176,7 +174,7 @@ sererityは `r"^\S.*: %.*-(\d)-.*: .*$"` で取り出せます。
 
 ## 実行例
 
-```
+```bash
 $ python bin/cisco_ios_show_logging.py testdata/show_logging.log
 2018-02-28 18:08:17,901 - INFO - open file testdata/show_logging.log
 2018-02-28 18:08:17,908 - INFO - Number of interfaces parsed = 599
@@ -206,7 +204,7 @@ bin/cisco_ios_show_interfaces.py
 
 ## スクレイピング対象
 
-```
+```none
 TenGigabitEthernet1/1/1 is administratively down, line protocol is down (disabled)
   Hardware is C6k 10000Mb 802.3, address is d072.dcc4.59d6 (bia d072.dcc4.59d6)
   MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec,
@@ -239,7 +237,7 @@ TenGigabitEthernet1/1/1 is administratively down, line protocol is down (disable
 
 ## 実行例
 
-```
+```bash
 $ python bin/cisco_ios_show_interfaces.py testdata/show_interfaces.log
 2018-02-28 18:13:12,490 - INFO - open file testdata/show_interfaces.log
 2018-02-28 18:13:12,558 - INFO - Number of interfaces parsed = 196
@@ -269,12 +267,10 @@ mgmt0
 $
 ```
 
-
 # 正規表現で欲しい情報を取り出す例・その３
 
-
-正規表現で情報を抽出した後そのままCSVに変換するだけならよいのですが、
-ある程度情報を加工して保存したいのであれば、辞書型よりも独自のクラスを定義した方が便利です。
+正規表現で情報を抽出した後そのままCSVに変換するだけならよいのですが、
+ある程度情報を加工して保存したいのであれば、辞書型よりも独自のクラスを定義した方が便利です。
 
 ## スクリプト
 
@@ -282,7 +278,7 @@ bin/cisco_show_ip_route.py
 
 ## スクレイピング対象
 
-```
+```none
 Gateway of last resort is 10.245.2.2 to network 0.0.0.0
 
 S*    0.0.0.0/0 [252/0] via 10.245.2.2, Vlan102
@@ -300,7 +296,7 @@ O E1     10.3.53.0/24 [110/134] via 10.245.2.2, 6w5d, Vlan102
 
 差分だけを表示する例です。
 
-```
+```bash
 $ python bin/cisco_ios_show_ip_route.py
 2018-03-01 09:14:58,169 - INFO - open file testdata/show_ip_route1.log
 2018-03-01 09:14:58,172 - INFO - open file testdata/show_ip_route2.log
@@ -346,4 +342,3 @@ route_entries2 : 651
 - : 19
 + : 17
 ```
-
